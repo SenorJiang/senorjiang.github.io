@@ -5,25 +5,56 @@
     <title>
         jiang.
     </title>
-
-
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 </head>
 
 <body>
-    <h1>
-		things.
+    <h1 class=things>
+			things.
 		</h1>
+    <p class=username>
+        <a href="http://www.instagram.com/senorjiang" target="_blank">@senorjiang</a>
+    </p>
 </body>
 <style>
-h1 {
+.things {
     position: absolute;
     margin: 0;
-	font-family: 'Roboto Slab', serif;
-	font-size: 60px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
     top: 50%;
-    left:50%;
+    left: 50%;
     transform: translate(-50%, -50%)
+}
+
+.username {
+    position: absolute;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    font-size: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90px, 23px)
+}
+
+.username a:link:hover {
+    color: #666666;
+}
+
+.username a:link {
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
+.username a:visited {
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
+.username a:visited:hover {
+    text-decoration: none;
+    color: #666666;
 }
 </style>
 
